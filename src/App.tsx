@@ -14,11 +14,11 @@ import { CanteenCardModal } from './components/CanteenCardModal';
 const MainLayout: React.FC = () => {
   const { activeView } = useCanteen();
 
-  return (
-    <div className="min-h-screen bg-stone-100/60 text-stone-900 font-sans flex flex-col selection:bg-orange-500 selection:text-white">
-      {/* Vercel Status notification bar */}
-       {/* Main App Bar */}
-      <Navbar />
+return (
+  <div className="min-h-screen ...">
+
+    {/* Main App Bar */}
+    <Navbar />
 
       {/* View router */}
       <main className="flex-1 pb-16">
