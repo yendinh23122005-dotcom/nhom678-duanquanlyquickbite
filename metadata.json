@@ -1,0 +1,6 @@
+{
+  "name": "CanteenGO - Hệ Thống Căn Tin Thông Minh",
+  "description": "Ứng dụng đặt món ăn trực tuyến, màn hình bếp KDS và quản trị bán hàng Canteen thông minh, tiện lợi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
