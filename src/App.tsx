@@ -1,7 +1,6 @@
 import React from 'react';
 import { CanteenProvider, useCanteen } from './context/CanteenContext';
 import { Navbar } from './components/Navbar';
-import { VercelBanner } from './components/VercelBanner';
 import { CustomerMenu } from './components/CustomerMenu';
 import { KitchenDisplay } from './components/KitchenDisplay';
 import { AdminDashboard } from './components/AdminDashboard';
@@ -18,9 +17,7 @@ const MainLayout: React.FC = () => {
   return (
     <div className="min-h-screen bg-stone-100/60 text-stone-900 font-sans flex flex-col selection:bg-orange-500 selection:text-white">
       {/* Vercel Status notification bar */}
-      <VercelBanner />
-
-      {/* Main App Bar */}
+       {/* Main App Bar */}
       <Navbar />
 
       {/* View router */}
